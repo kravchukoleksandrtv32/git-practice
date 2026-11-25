@@ -1,0 +1,3 @@
+[submodule "libs/ms"]
+	path = libs/ms
+	url = https://github.com/vercel/ms.git
