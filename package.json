@@ -1,0 +1,26 @@
+{
+  "name": "git-practice",
+  "version": "1.0.0",
+  "description": "Програма переводить тривалість у мілісекунди.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kravchukoleksandrtv32/git-practice.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kravchukoleksandrtv32/git-practice/issues"
+  },
+  "homepage": "https://github.com/kravchukoleksandrtv32/git-practice#readme",
+  "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "eslint": "^10.15.0",
+    "globals": "^17.14.0"
+  }
+}

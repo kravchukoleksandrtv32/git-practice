@@ -1,0 +1,18 @@
+#!/bin/sh
+
+FILES=$(git diff --cached --name-only --diff-filter=ACM | grep "\.js$")
+
+if [ -z "$FILES" ]; then
+  exit 0
+fi
+
+echo "ESLint: перевірка файлів перед комітом..."
+npx eslint $FILES
+
+if [ $? -ne 0 ]; then
+  echo "Коміт скасовано: виправте помилки ESLint."
+  exit 1
+fi
+
+echo "ESLint: помилок не знайдено."
+exit 0
